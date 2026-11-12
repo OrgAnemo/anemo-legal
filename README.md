@@ -11,5 +11,10 @@ accessibles sans authentification. Le code source de l'application reste privé.
 | Politique de confidentialité | `confidentialite.html` |
 | Suppression de compte | `suppression-compte.html` |
 | Conditions générales | `conditions.html` |
+| Mentions légales | `mentions-legales.html` |
+
+`conditions.html` et `confidentialite.html` sont générées depuis `src/content/legalTerms.ts`
+du dépôt de l'application (`node scripts/site-legal/generer.ts <ce dossier>`) : ne pas les
+modifier à la main.
 
 Toute modification est publiée automatiquement par GitHub Pages.
